@@ -1,0 +1,421 @@
+/*
+    Document   : admin
+    Created on : 13 Jun, 2012, 6:07:22 PM
+    Author     : swashata
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.itg-box-left {
+    float: left;
+}
+.itg-box-rigth {
+    float: right;
+}
+.itg-box-full {
+    width: 90%;
+    margin: auto;
+}
+.itg-box-big {
+    width: 65%;
+}
+.itg-box-medium {
+    width: 32%;
+}
+.slider {
+    margin: 5px auto;
+    width: 90%;
+}
+
+tr .slider {
+    float: right;
+    margin: 5px;
+}
+
+.slider-text {
+    display: block;
+    margin: 0 auto;
+}
+
+tr .slider-text {
+    float: right;
+    margin: 0 15px 0 0;
+}
+
+table.form-table td label {
+    display: block;
+    padding: 3px 0;
+}
+
+label .label_left {
+    float: left;
+}
+
+span.help {
+    display: none;
+    padding: 10px;
+}
+a.help_button {
+    display: block;
+    height: 16px; width: 16px;
+    text-indent: -9999px;
+    background: url('../images/help_16.png') no-repeat scroll center;
+}
+td a.help_button {
+    float: right;
+}
+fieldset.widefat legend {
+    padding: 10px;
+    margin: 10px 15px;
+
+}
+fieldset.widefat legend h4 {
+    margin: 0 5px;
+    display: inline-block;
+}
+fieldset.widefat legend a.help_button {
+    float: right;
+    margin: 2px 0 0 20px;
+}
+
+.colorpicker {
+    z-index: 10;
+}
+
+
+
+div.table {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+p.sub {
+	padding: 0 0 5px;
+	color: #8f8f8f;
+	font-size: 14px;
+        border-bottom: #ececec 1px solid;
+        margin: 0 0 10px;
+}
+
+div.table_content {
+	float: left;
+	width: 45%;
+}
+
+div.table_content.right {
+	float: right;
+	width: 45%;
+}
+
+div.table table td {
+	padding: 3px 0;
+	white-space: nowrap;
+}
+
+div.table table tr.first td {
+	border-top: none;
+}
+
+div.table td.b {
+	padding-right: 6px;
+	text-align: right;
+	font-size: 14px;
+	width: 1%;
+}
+
+div.table td.b a {
+	font-size: 18px;
+        font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+}
+
+div.table td.b a:hover {
+	color: #d54e21;
+}
+
+div.table .t {
+	font-size: 12px;
+	padding-right: 12px;
+	padding-top: 6px;
+	color: #777;
+}
+
+div.table .t a {
+	white-space: nowrap;
+}
+
+div.table .spam {
+	color: red;
+}
+
+div.table .waiting {
+	color: #e66f00;
+}
+
+div.table .approved {
+	color: green;
+}
+div.table a {
+    text-decoration: none;
+}
+
+#side-sortables .submit {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    float: left;
+    margin: 0;
+    padding: 0 12px;
+}
+
+/* jQuery UI fix for pages with WP Editor */
+.ui-widget-overlay {
+    background: url("images/ui-bg_flat_0_aaaaaa_40x100.png") repeat-x scroll 50% 50% #AAAAAA !important;
+    opacity: 0.3 !important;
+}
+
+ul.sortable_ul li {
+    display: block;
+    cursor: move;
+}
+/*
+.ui-widget-overlay {
+    height: 100%;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 100%;
+}*/
+
+.add a {
+    color: #006505;
+}
+.pending a, .deactivate a {
+    color: #D98500;
+}
+
+select[name="bulk_action"], select[name="bulk_action2"] {
+    width: 130px;
+}
+
+#ajax_cb {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.ajax_img {
+    background: url('../images/ajax.gif') no-repeat scroll center center;
+}
+.p-message {
+    border-radius: 3px;
+    padding: 0 0.6em;
+    margin: 5px 0 15px;
+    border: 1px solid;
+    clear: both;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.admin-color-classic .p-message {
+    border-color: #D1E5EE;
+}
+
+.p-message.error, .p-message.red {
+    background-color: #FFEBE8;
+    border-color: #CC0000;
+}
+
+.p-message.update, .p-message.yellow {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+}
+
+.p-message.green, .p-message.okay {
+    background-color: #e8ffea;
+    border-color: #00cc18;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+/* CSS for table sortables */
+/* Wrappers */
+div.ipt-sortable {
+    background-color: #f9f9f9;
+    border: 1px solid #dfdfdf;
+}
+.ipt-sortable .ipt-sortable-head, .ipt-sortable .ipt-sortable-foot {
+    background: -webkit-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    background: -moz-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    background: -o-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    background: -ms-linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    padding: 15px 10px;
+}
+.ipt-sortable .ipt-sortable-head {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 3px 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+.ipt-sortable .ipt-sortable-foot {
+    border-top: 1px solid #dfdfdf;
+    text-align: right;
+}
+.ipt-sortable .ipt-sortable-body {
+    padding: 0;
+}
+
+.ipt-sortable .ipt-sortable {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+/* Elements */
+.ipt-sortable-elem {
+    overflow: hidden;
+    padding: 5px 0;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #fff;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.ipt-sortable-highlight {
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    background-color: #dfdfdf;
+    height: 50px;
+}
+.ipt-sortable-body > .ipt-sortable-elem:last-of-type {
+    border-bottom: 1px solid #fff;
+    outline: 0 none;
+}
+.ipt-sortable .ipt-sortable-head > div, .ipt-sortable .ipt-sortable-body > .ipt-sortable-elem > div {
+    float: left;
+    padding: 5px 1%;
+}
+
+.ipt-sortable .ipt-sortable-head > div.clear {
+    float: none;
+    padding: 0;
+}
+.ipt-sortable .ipt-sortable-drag {
+    padding: 0;
+    cursor: s-resize;
+    width: 30px;
+    max-width: 5%;
+}
+.ipt-sortable .ipt-sortable-del {
+    float: right !important;
+    padding: 0;
+    width: 30px;
+    max-width: 5%;
+}
+.ipt-sortable .ipt-sortable-del img {
+    cursor: pointer;
+}
+.ipt-sortable .ipt-sortable-drag img, .ipt-sortable .ipt-sortable-del img {
+    max-width: 100%;
+    height: auto;
+}
+.ipt-sortable .ipt-sortable-data {
+    display: none;
+}
+/* Preset Widths */
+.ipt-sortable-text {
+    width: 25%;
+    min-width: 20em;
+}
+.ipt-sortable-text input.regular-text {
+    width: 20em;
+}
+.ipt-sortable textarea {
+    display: block;
+    width: 95%;
+}
+.ipt-sortable-checkboxes, .ipt-sortable-selectboxes {
+    width: 25%;
+}
+.ipt-sortable-smalltext {
+    width: 10%;
+    min-width: 60px;
+}
+.ipt-sortable-3 {
+    width: 3%;
+}
+.ipt-sortable-4 {
+    width: 4%;
+}
+.ipt-sortable-5 {
+    width: 5%;
+}
+.ipt-sortable-6 {
+    width: 6%;
+}
+.ipt-sortable-7 {
+    width: 7%;
+}
+.ipt-sortable-8 {
+    width: 8%;
+}
+.ipt-sortable-9 {
+    width: 9%;
+}
+.ipt-sortable-10 {
+    width: 10%;
+}
+.ipt-sortable-15 {
+    width: 15%;
+}
+.ipt-sortable-20 {
+    width: 20%;
+}
+.ipt-sortable-25 {
+    width: 25%;
+}
+.ipt-sortable-30 {
+    width: 30%;
+}
+.ipt-sortable-35 {
+    width: 35%;
+}
+.ipt-sortable-40 {
+    width: 40%;
+}
+.ipt-sortable-45 {
+    width: 45%;
+}
+.ipt-sortable-50 {
+    width: 50%;
+}
+.ipt-sortable-55 {
+    width: 55%;
+}
+.ipt-sortable-60 {
+    width: 60%;
+}
+.ipt-sortable-65 {
+    width: 65%;
+}
+.ipt-sortable-70 {
+    width: 70%;
+}
+.ipt-sortable-75 {
+    width: 75%;
+}
+.ipt-sortable-80 {
+    width: 80%;
+}
+.ipt-sortable-85 {
+    width: 85%;
+}
+.ipt-sortable-90 {
+    width: 90%;
+}
+.ipt-sortable-95 {
+    width: 95%;
+}
